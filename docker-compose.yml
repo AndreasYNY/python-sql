@@ -7,3 +7,14 @@ services:
     environment:
       - MYSQL_DATABASE=testdb
       - MYSQL_ROOT_PASSWORD=fXRc478R
+
+  # Its 11:00 and its not working :shrug: 
+  # python: 
+  #   image: python:alpine
+  #   restart: always
+  #   ports:
+  #     - 8000:8000
+  #   volumes:
+  #     - .:/app
+  #   working_dir: /app
+  #   command: "python -m venv venv && venv/bin/pip install -r requirements.txt && venv/bin/uvicorn main:app --host"
